@@ -1,0 +1,17 @@
+/* eslint-disable react/prop-types */
+
+function LargeProductListItem({ product }) {
+  const { name, price, description, rating } = product;
+
+  return (
+    <>
+      <h3>{name}</h3>
+      <p>{price}</p>
+      <h3>Description</h3>
+      <p>{description}</p>
+      <p>Avg Rating: {rating}</p>
+    </>
+  );
+}
+
+export default LargeProductListItem;
