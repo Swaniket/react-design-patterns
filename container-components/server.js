@@ -14,18 +14,21 @@ let currentUser = {
 
 let users = [
   {
+    id: "123",
     name: "Swaniket Chowdhury",
     age: 54,
     hairColor: "brown",
     hobbies: ["swimming", "bicycling", "video games"],
   },
   {
+    id: "456",
     name: "Brenda Smith",
     age: 33,
     hairColor: "black",
     hobbies: ["golf", "mathematics"],
   },
   {
+    id: "789",
     name: "Jane Garcia",
     age: 27,
     hairColor: "blonde",
@@ -35,18 +38,21 @@ let users = [
 
 const products = [
   {
+    id: "1234",
     name: "iPhone",
     price: "899",
     description: "Top Phone in the market",
     rating: "4.3",
   },
   {
+    id: "5678",
     name: "Mac Book",
     price: "1099",
     description: "The best laptop in the market",
     rating: "3.3",
   },
   {
+    id: "9101",
     name: "Router",
     price: "94",
     description: "The best router in the market",
